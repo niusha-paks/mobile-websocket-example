@@ -76,7 +76,7 @@ public class MainActivity extends Activity {
     private void connectWebSocket() {
         URI uri;
         try {
-            uri = new URI("ws://websockethost:8080");
+            uri = new URI("ws://10.0.2.2:9000");
         } catch (URISyntaxException e) {
             e.printStackTrace();
             return;
